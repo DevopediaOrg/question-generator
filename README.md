@@ -8,7 +8,9 @@ The algorithm could consider the following sources:
 * Quora: The questions here may be somewhat less specific and less technical than on StackOverflow, but quite relevant to Devopedia's work since we aim to introduce the topic to readers at a high level.
 * Wikipedia: Content here is not in Q&A format but we could possibly derive questions from the way content is organized into sections and sub-sections.
 
-The following figure shows what Google suggests when we search for the topic "Data Preparation". The first three questions are extremely relevant. The fourth question has the same intent as the first one and therefore such **duplicates** must be ignored. Another relevant question that Google suggests is "How is data cleaning done?" This is about giving **more details** from an earlier question about the data preparation process. Another question "What are data vizualization tools?" is related to data preparation but **not relevant**. Hence, such a suggestion must be ignored.
+![Questions suggested by Google Search](assets/datapreg.jpg?raw=true "Questions suggested by Google Search")
+
+The above figure shows what Google suggests when we search for the topic "Data Preparation". The first three questions are extremely relevant. The fourth question has the same intent as the first one and therefore such **duplicates** must be ignored. Another relevant question that Google suggests is "How is data cleaning done?" This is about giving **more details** from an earlier question about the data preparation process. Another question "What are data vizualization tools?" is related to data preparation but **not relevant**. Hence, such a suggestion must be ignored.
 
 [Research tips](https://devopedia.org/site-map/author-guidelines?research-tips) shared on Devopedia's Author Guidelines page might help.
 

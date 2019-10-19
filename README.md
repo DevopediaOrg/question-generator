@@ -28,3 +28,6 @@ Code should support the following:
 * Order questions so that readers are introduced to the basics first and read the details in later questions.
 * List a maximum of ten questions. Possibly the ones with highest scores are selected but it's possible to select a couple of low scoring questions if they add diversity to the discussion. For example, one question may address disadvantages/problems/criticisms about the topic. This may not be a popular question but it makes the article more complete by considering all points of view.
 
+# Approach
+
+The present Algorithm is based on attribution of a Users reputation on a source (say, Stackoverflow) and translating it to the reputation score of the Question. We then use some other signals derived from the same source (or a combination of sources) to categorize the questions into Beginner, Intermediate and Expert level questions and rank the questions within each of the categories.

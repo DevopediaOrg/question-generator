@@ -11,7 +11,7 @@ def read(file_name):
     return open(os.path.join(os.path.dirname(__file__), file_name)).read()
 
 setup(
-    name="mojave_bifrost",
+    name="birbal",
     version=versioneer.get_version(),
     cmdclass=versioneer.get_cmdclass(),
     url = "https://github.com/DevopediaOrg/question-generator",

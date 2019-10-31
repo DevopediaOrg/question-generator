@@ -1,7 +1,7 @@
 import logging
 import  os
 
-def setup_logger(name='question_notification', logger_dir, level=logging.DEBUG):
+def setup_logger(logger_dir, level=logging.DEBUG, name='question_notification'):
     if not os.path.exists(logger_dir):
         os.makedirs(logger_dir)
     logger_path = os.path.join(logger_dir, 'question_notification.log')

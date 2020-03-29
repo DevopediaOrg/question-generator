@@ -2,7 +2,7 @@ import logging
 import argparse
 import sys
 
-from helpers.cli_helpers import *
+from cli_helpers import *
 
 class Cli(object):
 
@@ -15,7 +15,7 @@ class Cli(object):
         topic_parser.add_argument("-k", "--keywords", help="Comma separated list of keywords [max 3]")
 
         question_parser = sub_parsers.add_parser("questions", help="Questions from the tags")
-        question_parser.add_argument("-k", "--tags", help="Comma separated list of tags  \
+        question_parser.add_argument("-t", "--tags", help="Comma separated list of tags  \
                                                 [returns max 1000 questions for each tag]")
 
         args = parser.parse_args()
@@ -45,3 +45,7 @@ def main():
     Cli.parse()
 
     sys.exit(ret_code)
+
+
+if __name__ == "__main__":
+    main()
